@@ -59,6 +59,8 @@ export default function ProductContainor() {
 
                 <div id="btns" >
                     <Button  onClick={() => filterHandler("")}>All</Button>
+                    <Button  onClick={() => filterHandler("Indian")}>Indian</Button>
+
                     <Button  onClick={() => filterHandler("Italian")}>Italian</Button>
                     <Button  onClick={() => filterHandler("Asian")}>Asian</Button>
                     <Button  onClick={() => filterHandler("American")}>American</Button>
